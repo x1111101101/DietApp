@@ -1,0 +1,4 @@
+.stdl {
+    display: grid;
+    grid-template-rows: 7vh 86vh 7vh;
+}

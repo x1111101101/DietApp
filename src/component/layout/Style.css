@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+a, a img {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.layout {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (orientation: landscape) {
+    body {
+        background-color: rgb(49, 47, 47);
+    }
+    .layout {
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70vh;
+    }
+    .header-icon img {
+        height: 10vh;
+    }
+}

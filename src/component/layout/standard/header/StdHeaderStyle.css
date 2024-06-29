@@ -1,0 +1,18 @@
+.stdheader {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 100%;
+    align-items: center;
+    padding: 2% 2% 2% 2%;
+}
+
+.stdheader img {
+    max-height: 100%;
+}
+
+.stdheader-name {
+    justify-self: center;
+    font-weight: bold;
+    font-size: 1.7em;
+}

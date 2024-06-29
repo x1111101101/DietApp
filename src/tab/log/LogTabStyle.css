@@ -1,0 +1,24 @@
+.tlog {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tlog-dateheader {
+    height: 5vh;
+}
+
+.tlog-dateheader-selector {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tlog-dateheader-selector img {
+    padding: 1vh;
+    height: 100%;
+}
+.tlog-datemover {
+    height: 100%;
+}

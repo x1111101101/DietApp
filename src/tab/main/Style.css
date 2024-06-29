@@ -1,0 +1,72 @@
+.t-main-label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.rounded {
+    border-radius: 1rem;
+}
+
+.t-main-today-progress {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-main-label {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    font-weight: bold;
+    font-size: 1.8em;
+    gap: 0.2em;
+    padding-left: 3%;
+}
+
+.t-main-label img {
+    padding-top: 0.08em;
+    width: 1.2em;
+    
+}
+
+.t-main-today {
+    width: 100%;
+}
+
+.t-main-feedbacks {
+    padding-top: 0.3em;
+    width: 85%;
+}
+
+.t-main-feedback {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding-left: 7.5%;
+}
+
+.t-main-feedback img {
+    width: 1.5em;
+    margin-right: 0.2em;
+}
+
+.t-main-recommends {
+    padding-top: 2em;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    
+}
+.t-main-recommend {
+    width: 85%;
+    background-color: #EAF6FF;
+    padding: 2vh 2vh 2vh 2vh;
+}

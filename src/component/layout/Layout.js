@@ -1,7 +1,9 @@
 import React from "react";
 
+import "./Style.css"
+
 export const Layout = (props) => {
-    <div className="layout">
-        
-    </div>
+    return (<div className="layout">
+        {props.children}
+    </div>)
 }

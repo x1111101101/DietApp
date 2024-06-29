@@ -1,0 +1,13 @@
+.hll {
+    display: grid;
+    grid-template-rows: 93vh 7vh;
+}
+
+.hll-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow: auto;
+    scrollbar-width: none;
+}

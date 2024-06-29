@@ -1,0 +1,35 @@
+.tlog-summary {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    height: 20vh;
+}
+
+.tlog-progress {
+    width: 40%;
+}
+
+.tlog-summary-boxes {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tlog-summary-boxrow {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tlog-summary-box {
+    width: 40%;
+    background-color: #EAF6FF;
+    padding: 1vh;
+}

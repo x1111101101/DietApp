@@ -1,0 +1,18 @@
+.tabbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5vh;
+    border-top: 1px solid lightgray;
+}
+
+.tabbar-tab {
+    height: 100%;
+}
+
+.tabbar-tab img {
+    height: 100%;
+    max-width: 4em;
+    padding: 0.75vh;
+}

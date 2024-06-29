@@ -1,0 +1,15 @@
+.c-mealbar {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: 6vh;
+    background: #EAF6FF;
+    padding: 1vh 1vh 1vh 1vh;
+}
+
+.c-meals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7vh;
+}
